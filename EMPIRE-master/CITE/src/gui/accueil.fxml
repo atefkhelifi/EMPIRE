@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="684.0" style="-fx-background-color: #2F4F4F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AccueilAdmisController">
+   <children>
+      <SplitPane dividerPositions="0.15586690017513136" layoutX="2.0" layoutY="1.0" orientation="VERTICAL" prefHeight="510.0" prefWidth="681.0" style="-fx-background-color: white;">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="114.0" prefWidth="730.0" style="-fx-background-color: #2F4F4F;">
+               <children>
+                  <Label layoutX="179.0" layoutY="13.0" prefHeight="50.0" prefWidth="438.0" text="CITE DE LA CULTURE" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ImageView fitHeight="407.0" fitWidth="687.0" layoutY="1.0" opacity="0.87" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../cite_culture.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="bibliotheque" layoutX="218.0" layoutY="89.0" mnemonicParsing="false" onAction="#bibliotheque" prefHeight="59.0" prefWidth="243.0" style="-fx-background-color: #2F4F4F;" text="GESTION BIBLIOTHEQUE" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="events" layoutX="218.0" layoutY="205.0" mnemonicParsing="false" onAction="#events" prefHeight="59.0" prefWidth="243.0" style="-fx-background-color: #2F4F4F;" text="GESTION DES EVENEMENTS" textFill="WHITE">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="clubs" layoutX="218.0" layoutY="148.0" mnemonicParsing="false" onAction="#clubs" prefHeight="59.0" prefWidth="243.0" style="-fx-background-color: #2F4F4F;" text="GESTION DES CLUBS" textFill="WHITE">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="formation" layoutX="218.0" layoutY="264.0" mnemonicParsing="false" onAction="#formation" prefHeight="59.0" prefWidth="243.0" style="-fx-background-color: #2F4F4F;" text="GESTION DES FORMATIONS" textFill="WHITE">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="deconnexion" layoutX="504.0" layoutY="345.0" mnemonicParsing="false" onAction="#deconnexion" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #008B8B;" text="DECONNEXION">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="comptes" layoutX="218.0" layoutY="30.0" mnemonicParsing="false" onAction="#comptes" prefHeight="59.0" prefWidth="243.0" style="-fx-background-color: #2F4F4F;" text="GESTION DES COMPTES" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="actualite" layoutX="218.0" layoutY="323.0" mnemonicParsing="false" onAction="#actualite" prefHeight="59.0" prefWidth="243.0" style="-fx-background-color: #2F4F4F;" text="GESTION ACTUALITE" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
