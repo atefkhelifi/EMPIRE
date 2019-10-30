@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gestionclub.gui.AbonnéController">
+   <children>
+      <SplitPane dividerPositions="0.16722408026755853" layoutY="-2.0" prefHeight="400.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="74.0" style="-fx-background-color: #2F4F4F;">
+               <children>
+                  <Button fx:id="retour" layoutY="365.0" mnemonicParsing="false" onAction="#retour" prefHeight="33.0" prefWidth="97.0" text="RETOUR">
+                     <font>
+                        <Font name="System Bold Italic" size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="table2" prefHeight="329.0" prefWidth="495.0">
+                    <columns>
+                      <TableColumn fx:id="id" minWidth="0.0" prefWidth="41.0" text="ID" />
+                      <TableColumn fx:id="nom" prefWidth="109.0" text="NOM" />
+                        <TableColumn fx:id="prenom" prefWidth="100.0" text="PRENOM" />
+                        <TableColumn fx:id="adress" prefWidth="105.0" text="ADRESSE" />
+                        <TableColumn fx:id="telephone" prefWidth="135.0" text="TELEPHONE" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="bannir" layoutX="389.0" layoutY="343.0" mnemonicParsing="false" onAction="#bannir" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: #2F4F4F;" text="SUPPRIMER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="close" layoutX="268.0" layoutY="343.0" mnemonicParsing="false" onAction="#close" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: #2F4F4F;" text="FERMER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

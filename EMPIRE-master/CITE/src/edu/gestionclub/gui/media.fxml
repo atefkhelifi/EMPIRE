@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="443.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gestionclub.gui.MediaController">
+   <children>
+      <Button fx:id="Retour" layoutX="542.0" layoutY="404.0" mnemonicParsing="false" onAction="#Retour" style="-fx-background-color: #00000;" stylesheets="@Style.css" text="RETOUR">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <SplitPane dividerPositions="0.9046242774566474" layoutX="121.0" layoutY="27.0" orientation="VERTICAL" prefHeight="341.0" prefWidth="421.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="220.0" prefWidth="232.0">
+               <children>
+                  <MediaView fx:id="mediaview" fitHeight="300.0" fitWidth="400.0" layoutX="10.0" layoutY="5.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button fx:id="play" layoutY="1.0" mnemonicParsing="false" onAction="#play" style="-fx-background-color: #4CAF50;;" stylesheets="@Style.css" text="PLAY">
+                     <font>
+                        <Font name="System Bold Italic" size="13.0" />
+                     </font></Button>
+                  <Button fx:id="pause" layoutX="44.0" layoutY="1.0" mnemonicParsing="false" onAction="#pause" style="-fx-background-color: #f44336;;" stylesheets="@Style.css" text="STOP">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font></Button>
+                  <Button layoutX="100.0" layoutY="2.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" stylesheets="@Style.css" text="SOUND">
+                     <font>
+                        <Font name="System Bold Italic" size="11.0" />
+                     </font></Button>
+                  <Slider fx:id="volume" layoutX="160.0" layoutY="2.0" onDragDetected="#click" prefHeight="25.0" prefWidth="260.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
