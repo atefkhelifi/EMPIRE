@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.testapplication.gui.ModifierController">
+   <children>
+      <Label layoutX="23.0" layoutY="28.0" text="ID" />
+      <TextField fx:id="ttid" layoutX="60.0" layoutY="23.0" />
+      <Button fx:id="ttpasser" layoutX="126.0" layoutY="332.0" mnemonicParsing="false" onAction="#passer" text="enregistrer" />
+      <Label layoutX="14.0" layoutY="86.0" text="Sujet" />
+      <Label layoutX="15.0" layoutY="140.0" text="Date" />
+      <TextField fx:id="ttsujet" layoutX="60.0" layoutY="81.0" />
+      <DatePicker fx:id="ttdate" layoutX="48.0" layoutY="135.0" />
+      <Label layoutX="13.0" layoutY="190.0" text="nom_formation" />
+      <Label layoutX="23.0" layoutY="242.0" text="nom_formateur" />
+      <Label layoutX="321.0" layoutY="28.0" text="nombre_place" />
+      <Label layoutX="331.0" layoutY="86.0" text="localisation" />
+      <TextField fx:id="ttformation" layoutX="126.0" layoutY="185.0" />
+      <TextField fx:id="ttformateur" layoutX="147.0" layoutY="237.0" />
+      <TextField fx:id="ttplace" layoutX="415.0" layoutY="23.0" prefHeight="31.0" prefWidth="167.0" />
+      <TextField fx:id="ttlocalisation" layoutX="405.0" layoutY="81.0" />
+      <Button fx:id="exit" layoutX="331.0" layoutY="332.0" mnemonicParsing="false" onAction="#retour" text="exit" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="415.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/depositphotos_126812096-stock-photo-edit-document-icon-shiny-cyan.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

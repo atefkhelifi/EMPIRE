@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/Statistique.fxml</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/User.fxml</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/entities/JavaMailUtil.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/AttestationController.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/Modifier.fxml</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/entities/JavaMail.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/entities/Formation.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/ModifierController.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/passage.fxml</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/entities/MyConnection.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/PassageController.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/FirstWindow.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/Afficher.fxml</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/tests/MainClass.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/StatistiqueController.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/Attestation.fxml</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/AfficherController.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/entities/User.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/entities/Participant.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/entities/FormationCRUD.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/Formation.fxml</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/FormationController.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/UserWindow.java</file>
+            <file>file:/C:/Users/amir/Documents/NetBeansProjects/Formation2/src/edu/testapplication/gui/UserController.java</file>
+        </group>
+    </open-files>
+</project-private>

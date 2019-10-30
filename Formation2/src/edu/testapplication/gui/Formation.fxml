@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="927.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.testapplication.gui.FormationController">
+   <children>
+      <Label layoutX="55.0" layoutY="66.0" text="ID" />
+      <Label layoutX="45.0" layoutY="115.0" text="Sujet" />
+      <Label layoutX="45.0" layoutY="179.0" text="Date" />
+      <Label layoutX="45.0" layoutY="241.0" text="nombre de place">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font></Label>
+      <TextField fx:id="fid" layoutX="207.0" layoutY="61.0" />
+      <TextField fx:id="fsujet" layoutX="207.0" layoutY="110.0" />
+      <TextField fx:id="fhoraire" layoutX="207.0" layoutY="236.0" />
+      <Label layoutX="434.0" layoutY="201.0" prefHeight="133.0" prefWidth="236.0" text="Gestion Des Formations" textFill="#490fda">
+         <font>
+            <Font name="System Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="66.0" text="nom formateur" />
+      <Label />
+      <Label layoutX="502.0" layoutY="115.0" text="nom formation" />
+      <Label layoutX="42.0" layoutY="316.0" text="localisation" />
+      <DatePicker fx:id="fdate" layoutX="176.0" layoutY="174.0" />
+      <TextField fx:id="fformateur" layoutX="681.0" layoutY="61.0" />
+      <TextField fx:id="fformation" layoutX="688.0" layoutY="110.0" />
+      <TextField fx:id="flocalisation" layoutX="207.0" layoutY="301.0" />
+      <VBox layoutX="954.0" layoutY="26.0" prefHeight="175.0" prefWidth="100.0">
+         <children>
+            <Button fx:id="fstatistique" mnemonicParsing="false" onAction="#statistique" prefHeight="31.0" prefWidth="107.0" text="statistique" />
+            <Button fx:id="fattestation" mnemonicParsing="false" onAction="#attestation" prefHeight="31.0" prefWidth="105.0" text="attestation" />
+            <Button fx:id="btnafficher" mnemonicParsing="false" onAction="#afficher" prefHeight="31.0" prefWidth="100.0" text="afficher" />
+            <Button fx:id="btnsupprimer" mnemonicParsing="false" onAction="#supprimer" prefHeight="31.0" prefWidth="100.0" text="supprimer" />
+            <Button fx:id="btnmodifier" mnemonicParsing="false" onAction="#modifier" prefHeight="31.0" prefWidth="106.0" text="modifier" />
+            <Button fx:id="btnajouter" mnemonicParsing="false" onAction="#ajouter" prefHeight="31.0" prefWidth="104.0" text="ajouter" />
+         </children>
+      </VBox>
+      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="703.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RHEXIS_Actu_definition-action-de-formation_entete.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="922.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/téléchargement%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="922.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/téléchargement%20(3).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="34.0" layoutX="921.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/images.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="42.0" layoutX="925.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/37915002-supprimer-bouton-vert-carré.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="34.0" layoutX="775.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="31.0" fitWidth="34.0" layoutX="923.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/téléchargement%20(1).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-100.0" layoutY="-175.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="920.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/téléchargement.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="acceuil" layoutX="483.0" layoutY="311.0" mnemonicParsing="false" onAction="#acceuil" prefHeight="31.0" prefWidth="119.0" text="Acceuil" />
+   </children>
+</AnchorPane>
