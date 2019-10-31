@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="475.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gestionbib.gui.EmpruntController">
+   <children>
+      <SplitPane dividerPositions="0.2759084791386272" layoutY="-3.0" prefHeight="475.0" prefWidth="745.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="473.0" prefWidth="175.0" style="-fx-background-color: #2F4F4F;">
+               <children>
+                  <ComboBox fx:id="idlivre" layoutX="14.0" layoutY="62.0" prefWidth="150.0" promptText="livres" />
+                  <ComboBox fx:id="iduser" layoutX="14.0" layoutY="96.0" prefWidth="150.0" promptText="utilisateurs" />
+                  <DatePicker fx:id="datedebut" layoutX="14.0" layoutY="167.0" promptText="date-debut" />
+                  <DatePicker fx:id="datefin" layoutX="14.0" layoutY="202.0" promptText="date-fin" />
+                  <Button fx:id="acceuil" layoutX="23.0" layoutY="423.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="91.0" text="ACCUEIL">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="table" layoutY="14.0" prefHeight="354.0" prefWidth="535.0">
+                    <columns>
+                      <TableColumn fx:id="livre" prefWidth="104.0" text="LIVRE" />
+                      <TableColumn fx:id="emprunteur" prefWidth="105.0" text="EMPRUNTEUR" />
+                        <TableColumn fx:id="debut" prefWidth="110.0" text="DATE DE DEBUT" />
+                        <TableColumn fx:id="fin" prefWidth="95.0" text="DATE FIN" />
+                        <TableColumn fx:id="idemprunt" prefWidth="120.0" text="EMPRUNT" />
+                    </columns>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </TableView>
+                  <Button fx:id="supprimer" layoutX="436.0" layoutY="378.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="91.0" style="-fx-background-color: #2F4F4F;" text="SUPPRIMER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="ajouter" layoutX="345.0" layoutY="378.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="79.0" style="-fx-background-color: #2F4F4F;" text="AJOUTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
